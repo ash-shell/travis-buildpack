@@ -1,6 +1,6 @@
 # Ash Travis Buildpack
 
-This project contains the Buildfile to add to a `.travis.yml` file to easily get an Ash module set up on [Travis CI](https://travis-ci.org/).
+This project contains a `Buildfile` and a `.travis.yml` file to easily get an Ash module set up on [Travis CI](https://travis-ci.org/).
 
 ## Getting Started
 
@@ -15,6 +15,8 @@ ash test:travis
 ```
 
 Assuming you've already written your tests, you won't need to do anything other than turn Travis on.
+
+If you haven't written your tests yet, first check out the [test module's](https://github.com/ash-shell/test) README before setting up Travis.
 
 ## Disclaimer
 
