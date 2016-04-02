@@ -9,3 +9,4 @@ echo -n "$MODULE_REPO_NAME" >> ash/global_modules/module_aliases.yaml
 echo -n ":" >> ash/global_modules/module_aliases.yaml
 echo -n " github.com/ash-shell/$MODULE_REPO_NAME" >> ash/global_modules/module_aliases.yaml
 cd ash
+echo $(pwd)
